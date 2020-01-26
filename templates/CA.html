@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>CA PROJECT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="C:\Users\Hamza\fb\templates\favicon.ico" />
+<meta name="theme-color" content="#ffffff">	
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+
+<body >
+
+<div class="w3-padding-large" id="main" style="margin-left: 120px">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+{% for table in tables %}
+	<p></p>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+
+</body>
+</html>
