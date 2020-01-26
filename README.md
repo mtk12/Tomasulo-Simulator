@@ -8,8 +8,8 @@ Write command:<br>
 Copy the link and Paste in the browser.
 
 <h1>Snippets:<br>
-![alt text][logo]
-[logo]: https://github.com/mtk12/Tomasulo-Simulator/blob/master/Images/1.JPG "1"
 <br>
-![alt text][logo1]
-[logo1]: https://github.com/mtk12/Tomasulo-Simulator/blob/master/Images/2.JPG "1"
+<img src="https://github.com/mtk12/Tomasulo-Simulator/blob/master/Images/1.PNG"/>
+<br>
+<br>
+ <img src="https://github.com/mtk12/Tomasulo-Simulator/blob/master/Images/2.PNG"/>
